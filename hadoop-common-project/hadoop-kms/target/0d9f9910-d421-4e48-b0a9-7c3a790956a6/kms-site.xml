@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>key.acl.kbb.ALL</name><value>foo</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.type</name><value>simple</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.principal</name><value>HTTP/localhost</value><source>programmatically</source></property>
+<property><name>hadoop.kms.proxyuser.client.users</name><value>foo,bar</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.keytab</name><value>/home/vallejo/hadoop/hadoop-common-project/hadoop-kms/target/2d5bdea9-9343-4698-84cf-2363b1a00b2f/keytab</value><source>programmatically</source></property>
+<property><name>key.acl.kcc.ALL</name><value>foo1</value><source>programmatically</source></property>
+<property><name>hadoop.kms.key.provider.uri</name><value>jceks://file@/home/vallejo/hadoop/hadoop-common-project/hadoop-kms/target/0d9f9910-d421-4e48-b0a9-7c3a790956a6/kms.keystore</value><source>programmatically</source></property>
+<property><name>key.acl.kdd.ALL</name><value>bar</value><source>programmatically</source></property>
+<property><name>hadoop.kms.proxyuser.client.hosts</name><value>*</value><source>programmatically</source></property>
+<property><name>key.acl.kaa.ALL</name><value>client</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.name.rules</name><value>DEFAULT</value><source>programmatically</source></property>
+</configuration>

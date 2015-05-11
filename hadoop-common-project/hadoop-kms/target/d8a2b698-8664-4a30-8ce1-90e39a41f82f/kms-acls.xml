@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>key.acl.k1.ALL</name><value>*</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.type</name><value>simple</value><source>programmatically</source></property>
+<property><name>key.acl.k2.MANAGEMENT</name><value>*</value><source>programmatically</source></property>
+<property><name>hadoop.kms.key.provider.uri</name><value>jceks://file@/home/vallejo/hadoop/hadoop-common-project/hadoop-kms/target/d8a2b698-8664-4a30-8ce1-90e39a41f82f/kms.keystore</value><source>programmatically</source></property>
+<property><name>key.acl.k2.READ</name><value>*</value><source>programmatically</source></property>
+<property><name>key.acl.k6.ALL</name><value>*</value><source>programmatically</source></property>
+<property><name>key.acl.k5.ALL</name><value>*</value><source>programmatically</source></property>
+<property><name>key.acl.k4.ALL</name><value>*</value><source>programmatically</source></property>
+<property><name>key.acl.k3.ALL</name><value>*</value><source>programmatically</source></property>
+</configuration>

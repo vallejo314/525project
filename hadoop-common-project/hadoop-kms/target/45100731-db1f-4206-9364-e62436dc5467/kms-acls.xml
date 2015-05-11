@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>hadoop.kms.authentication.kerberos.keytab</name><value>/home/vallejo/hadoop/hadoop-common-project/hadoop-kms/target/2d5bdea9-9343-4698-84cf-2363b1a00b2f/keytab</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.principal</name><value>HTTP/localhost</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.token.validity</name><value>1</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.name.rules</name><value>DEFAULT</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.type</name><value>kerberos</value><source>programmatically</source></property>
+<property><name>hadoop.kms.key.provider.uri</name><value>jceks://file@/home/vallejo/hadoop/hadoop-common-project/hadoop-kms/target/45100731-db1f-4206-9364-e62436dc5467/kms.keystore</value><source>programmatically</source></property>
+</configuration>

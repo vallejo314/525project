@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>hadoop.kms.authentication.type</name><value>simple</value><source>programmatically</source></property>
+<property><name>hadoop.kms.key.provider.uri</name><value>jceks://file@/home/vallejo/hadoop/hadoop-common-project/hadoop-kms/target/0df72efe-73d9-441d-aec2-01689a944cb6/kms.keystore</value><source>programmatically</source></property>
+<property><name>hadoop.security.kms.client.timeout</name><value>1</value><source>programmatically</source></property>
+</configuration>

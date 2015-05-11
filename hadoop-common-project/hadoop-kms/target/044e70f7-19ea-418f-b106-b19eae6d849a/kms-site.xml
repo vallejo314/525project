@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>hadoop.kms.key.authorization.enable</name><value>false</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.signer.secret.provider</name><value>zookeeper</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.signer.secret.provider.zookeeper.path</name><value>/secret</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.type</name><value>simple</value><source>programmatically</source></property>
+<property><name>hadoop.kms.key.provider.uri</name><value>jceks://file@/home/vallejo/hadoop/hadoop-common-project/hadoop-kms/target/044e70f7-19ea-418f-b106-b19eae6d849a/kms.keystore</value><source>programmatically</source></property>
+<property><name>hadoop.kms.acl.GET_KEYS</name><value>foo</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.signer.secret.provider.zookeeper.connection.string</name><value>127.0.0.1:48857</value><source>programmatically</source></property>
+</configuration>

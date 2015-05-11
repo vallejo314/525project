@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>hadoop.kms.authentication.kerberos.principal</name><value>HTTP/localhost</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.type</name><value>kerberos</value><source>programmatically</source></property>
+<property><name>hadoop.ssl.server.conf</name><value>ssl-server.xml</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.keytab</name><value>/home/vallejo/hadoop/hadoop-common-project/hadoop-kms/target/8e20871e-1de3-4812-8940-e6948d8cbdeb/keytab</value><source>programmatically</source></property>
+<property><name>hadoop.kms.key.provider.uri</name><value>jceks://file@/home/vallejo/hadoop/hadoop-common-project/hadoop-kms/target/4f20d9e9-0991-414a-b0c5-ef6b3cc81a22/kms.keystore</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.token.validity</name><value>1</value><source>programmatically</source></property>
+<property><name>hadoop.ssl.hostname.verifier</name><value>ALLOW_ALL</value><source>programmatically</source></property>
+<property><name>hadoop.ssl.client.conf</name><value>ssl-client.xml</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.kerberos.name.rules</name><value>DEFAULT</value><source>programmatically</source></property>
+<property><name>hadoop.ssl.require.client.cert</name><value>false</value><source>programmatically</source></property>
+</configuration>

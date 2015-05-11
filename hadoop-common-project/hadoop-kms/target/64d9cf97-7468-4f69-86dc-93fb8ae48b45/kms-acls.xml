@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>hadoop.kms.authentication.token.validity</name><value>1</value><source>programmatically</source></property>
+<property><name>hadoop.kms.authentication.type</name><value>simple</value><source>programmatically</source></property>
+<property><name>hadoop.kms.key.provider.uri</name><value>jceks://file@/home/vallejo/hadoop/hadoop-common-project/hadoop-kms/target/64d9cf97-7468-4f69-86dc-93fb8ae48b45/kms.keystore</value><source>programmatically</source></property>
+</configuration>
