@@ -1,3 +1,6 @@
+Our project code is branched off of the Hadoop main repo.
+Below is the Apache Hadoop readme. 
+
 For the latest information about Hadoop, please visit our website at:
 
    http://hadoop.apache.org/core/
